@@ -3,6 +3,14 @@ h2 {
   color: goldenrod;
 }
 
+/*
+  This rule applies to any span that is the direct descendant
+  of an `h1`
+*/
+h1 span {
+  color: black;
+}
+
 a {
   color: goldenrod;
 }

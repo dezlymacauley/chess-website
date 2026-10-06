@@ -18,3 +18,31 @@ Applies to all elements with `class="accent-text bold-text"` (both classes)
     text-decoration: underline;
 }
 ```
+_______________________________________________________________________________
+
+## Using nesting
+
+You can use nesting to write a rule like this...
+```css
+h2 {
+  text-transform: uppercase;
+}
+
+h2.article-title {
+  color: #973712;
+}
+```
+
+...like this
+```css
+h2 {
+  text-transform: uppercase;
+
+    &.article-title {
+        color: #973712; 
+    }
+}
+```
+
+The `&` is shorthand for the parent `h2`
+_______________________________________________________________________________
