@@ -1,3 +1,12 @@
-p {
-  color: blue;
+h1,
+h2 {
+  color: goldenrod;
+}
+
+a {
+  color: goldenrod;
+}
+
+.lede {
+  font-size: 21px;
 }
