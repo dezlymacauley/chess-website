@@ -1,4 +1,3 @@
-
 Applies to all elements with the `class="accent-text"`
 ```css
 .accent-text {
